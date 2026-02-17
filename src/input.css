@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.white-key{
+    @apply w-16 h-64 bg-white border border-black
+    rounded-md
+    cursor-pointer
+    active:bg-gray-300 transition;
+}
