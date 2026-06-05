@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: backend
+  datasource:
+    url: jdbc:postgresql://localhost:5433/octavix
+    username: octavix
+    password: devpassword
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+  flyway:
+    enabled: true

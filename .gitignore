@@ -33,5 +33,16 @@ yarn-error.log*
 # vercel
 .vercel
 
+# monorepo
 /OctavixDocs
 .vscode
+*.zip
+
+# maven build output
+backend/target/
+
+# frontend build output
+frontend/dist/
+frontend/node_modules/
+
+.idea
